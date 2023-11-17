@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #141414;
+  font-family: "manrope", sans-serif;
+  overflow-x: hidden;
+  /* background-image: url(../src/assets/images/Sub\ Container.png); */
+}
+
+.bgimage {
+  background: url(./assets/images/trialBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footercss h5 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footercss p {
+  color: #999;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
