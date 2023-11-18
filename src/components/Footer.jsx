@@ -5,7 +5,7 @@ import line from "../assets/images/footerLine.svg";
 export const Footer = () => {
   return (
     <div className=" bg-black">
-      <div className=" footercss mt-[113px] grid grid-cols-2  gap-6 px-8 pb-10 pt-12 lg:flex lg:justify-between lg:px-20 lg:pt-20">
+      <div className=" footercss  grid grid-cols-2  gap-6 px-8 pb-10 pt-12 lg:flex lg:justify-between lg:px-20 lg:pt-20">
         <div>
           <h5>Home</h5>
           <p>Categories</p>
