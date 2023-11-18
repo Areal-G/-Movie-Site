@@ -35,37 +35,36 @@ export const Nav = () => {
         </li>
       </ul>
       <img className="lg:hidden" src={hamburger} alt="" />
-      <ul className=" absolute right-0 top-20 w-[50%] rounded-lg border-4 border-neutral-800 bg-[#1A1A1A] bg-opacity-100  text-center text-white ">
+      <ul className=" absolute right-0 top-20 w-[50%] rounded-md border-4 border-neutral-800 bg-[#1A1A1A] bg-opacity-100 text-center text-base  text-white lg:hidden ">
         <li>
-          <div className=" mx-auto mt-7 flex w-[70%] justify-between">
+          <div className=" mx-auto flex w-[70%] justify-between  py-2">
             <img className=" h-[24px] px-[7px]" src={searchIcon} alt="" />
             <img className=" h-[24px] px-2" src={notificationIcon} alt="" />
           </div>
         </li>
-        <li className=" mt-5">
+        <li className=" border-y border-white py-3">
           <button className="">
             <a href="" className=" ">
               Home
             </a>
           </button>
         </li>
-        <li className="  mt-5">
+        <li className=" py-3">
           <button>
             <a href="">Movies&Shows</a>
           </button>
         </li>
-        <li className=" mt-5">
+        <li className=" border-t border-white py-3">
           <button>
             <a href="">Support</a>
           </button>
         </li>
-        <li className="   mb-7 mt-5">
+        <li className="    border-t border-white py-3">
           <button>
             <a href="">Subscription</a>
           </button>
         </li>
       </ul>
-      <div className="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3"></div>
 
       <div className=" hidden items-center justify-end  lg:flex">
         <img className=" h-[24px] px-[7px]" src={searchIcon} alt="" />
